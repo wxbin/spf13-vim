@@ -98,6 +98,7 @@
     
 " }
 
+let g:spf13_bundle_groups=['general', 'programming',]
 " Use fork before if available {
     if filereadable(expand("~/.vimrc.before.fork"))
         source ~/.vimrc.before.fork
